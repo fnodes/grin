@@ -1,7 +1,7 @@
 FROM alpine:edge as builder
 MAINTAINER Tyler Baker <forcedinductionz@gmail.com>
 
-ARG VERSION=v1.0.2
+ARG VERSION=v1.1.0-beta.2
 
 ENV CLONE_URL https://github.com/mimblewimble/grin.git
 
